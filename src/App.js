@@ -13,6 +13,7 @@ function App() {
           <Route path='/calculate' element={<Calculate/>}/>
         </Routes>
       </Router>
+      <footer className='mt-16 text-center bg-blue-400 py-4 text-white text-xl'>Copyrights Reserved</footer>
     </div>
   );
 }
